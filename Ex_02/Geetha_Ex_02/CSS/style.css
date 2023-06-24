@@ -1,0 +1,29 @@
+/*External CSS created by GeethaVishnu on 23-Jun-23*/
+
+body
+{
+background-color:antiquewhite;
+}
+
+h1 {
+    color: yellowgreen;
+    text-align: center;
+    font-style: italic;
+
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    color: red;
+    font-size: small;
+}
+
+table,
+tr,
+td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid brown;
+    text-align: center;
+}
