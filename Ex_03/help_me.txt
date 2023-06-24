@@ -1,0 +1,48 @@
+Exercise 03
+===========
+ForntENd
+Backend
+
+
+WEBSite
+Request -> what is latest this week in OTT -> Process with various provider -> Response
+
+Input -> CPU -> output
+
+Backend
+C#
+MVC _code
+HTML Form
+HTML Controls
+Controls Validation
+http://127.0.0.1:5500/index.html
+Live Server
+http:// -> normal transfer
+https:// -> Secured Transfer
+127.0.0.1 -> localhost (your desktop/laptop)
+255.255.255.01 -> Google.com
+:
+5500 -> port google.com
+5600 - google drive
+5700 - gmail
+/index.html
+
+
+Form
+
+Profile
+Name -> 001
+Gender -> chennai
+DOB
+Address
+
+Electricy
+Already * Required Field
+single or 3 phase
+Deposit
+Cheque OR
+
+Submit
+
+
+
