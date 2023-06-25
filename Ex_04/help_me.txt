@@ -1,0 +1,42 @@
+HTML Form
+HTML Control & its Validation
+URL
+http://127.0.0.1:5500/landingpage.html?empname=Balaji&age=45
+
+http://127.0.0.1:5500/index.html
+Live Server
+http:// -> normal transfer
+https:// -> Secured Transfer
+127.0.0.1 -> localhost (your desktop/laptop)
+255.255.255.01 -> Google.com
+
+index.html
+?
+Querystring -> collection of Name & Value pair
+name & value pair
+?empname=Balaji
+&
+age=45
+
+?
+empname=Balaji
+&
+age=45
+
+Validation
+==========
+HTML validation - Default HTML message
+Client-side validation - Javascript - Custom message
+Server-side validation - Usually from External Resources like Database, Json, etc
+
+
+
+
+
+
+
+
+
+
+
+
