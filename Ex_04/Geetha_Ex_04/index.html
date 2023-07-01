@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Created by Geetha 01-July-2023-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+    <!--creating icon for index page-->
+    <link rel="icon" href="./image/favicon.png">
+    <!--calling external CSS-->
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <h1>
+        <img src="./image/student.jpg" alt="This image does not exists temporarily"><br>
+        Student Application Form
+    </h1>
+    <h2>
+        <!--Creating a form-->
+        <form action="./landingpage.html" method="get">
+            <div>
+                <div>
+                    <label for="studentname">Student Name : </label>
+                    <input type="text" id="studentname" name="studentname" minlength="3" maxlength="15" required
+                        size="20">
+                </div>
+                <br>
+                <div>
+                    <label for="age">Age : </label>
+                    <input type="number" id="age" name="age" minlength="2" maxlength="2" required size="1">
+                </div>
+                <br>
+                <div>
+                    <label for="gender">Gender : </label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                </div>
+                <br>
+                <div>
+                    <label for="course">Course : </label>
+                    <input type="radio" id="mba" name="course" value="mba">
+                    <label for="mba">MBA</label>
+                    <input type="radio" id="mca" name="course" valu="mca">
+                    <label for="mca">MCA</label>
+                </div>
+                <br>
+                <div>
+                    <label for="telephone">Telephone : </label>
+                    <input type="tel" id="telephone">
+                </div>
+                <br>
+                <div>
+                    <label for="Email">Email ID : </label>
+                    <input type="email" id="Email" name="Email">
+                </div>
+                <br>
+                <div>
+                    <label for="loginid">Student Login ID : </label>
+                    <input type="text" id="loginid">
+                </div>
+                <br>
+                <div>
+                    <label for="password">Password : </label>
+                    <input type="password" id="password" name="password" minlength="6" maxlength="10">
+                </div>
+            </div>
+            <div>
+                <br>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </h2>
+</body>
+
+</html>
