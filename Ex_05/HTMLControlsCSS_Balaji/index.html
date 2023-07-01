@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Created by Geetha 01-July-2023-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+    <!--creating icon for index page-->
+    <link rel="icon" href="./image/favicon.png">
+    <!--calling external CSS-->
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <div>
+        <img src="./image/student.jpg" alt="This image does not exists temporarily" />
+        <h1>
+            Student Application Form
+        </h1>
+    </div>
+    <h2>
+        <!--Creating a form-->
+        <form action="./landingpage.html" method="get">
+            <div>
+                <!-- Student Name -->
+                <table>
+
+
+
+                    <tr>
+                        <td><label for="studentname">Student Name : </label></td>
+                        <td><input type="text" id="studentname" name="studentname" minlength="3" maxlength="15" required
+                                size="20"></td>
+                    </tr>
+
+                    <!-- Age -->
+                    <tr>
+                        <td><label for="age">Age : </label></td>
+                        <td><input type="number" id="age" name="age" minlength="2" maxlength="2" required size="1"></td>
+                    </tr>
+
+
+
+
+                    <!-- Gender -->
+                    <tr>
+                        <td><label>Gender : </label></td>
+                        <td>
+                            <input type="radio" id="female" name="gender" value="2">
+                            <label for="female">Female</label>
+                            <input type="radio" id="male" name="gender" value="1">
+                            <label for="male">Male</label>
+                        </td>
+                    </tr>
+
+
+
+                    <!-- Course -->
+                    <tr>
+                        <td><label for="course">Course : </label></td>
+                        <td><input type="radio" id="mba" name="course" value="mba" checked>
+                            <label for="mba">MBA</label>
+                            <input type="radio" id="mca" name="course" value="mca">
+                            <label for="mca">MCA</label>
+                        </td>
+                    </tr>
+
+
+
+
+                    <!-- Telephone -->
+                    <tr>
+                        <td><label for="telephone">Telephone : </label></td>
+                        <td><input type="tel" id="telephone" name="telephone"></td>
+                    </tr>
+
+
+
+
+                    <!-- Email -->
+                    <tr>
+                        <td><label for="Email">Email ID : </label></td>
+                        <td><input type="email" id="Email" name="Email"></td>
+                    </tr>
+
+
+
+
+                    <!-- Student Login -->
+                    <tr>
+                        <td><label for="loginid">Student Login ID : </label></td>
+                        <td><input type="text" id="loginid" name="loginid"></td>
+                    </tr>
+
+
+
+
+                    <!-- Student Password -->
+                    <tr>
+                        <td><label for="password">Password : </label></td>
+                        <td><input type="password" id="password" name="password" minlength="6" maxlength="10"></td>
+                    </tr>
+
+
+                    <tr class="make-center">
+                        <td colspan="2"><button type="submit">Submit</button></td>
+                    </tr>
+
+
+
+                </table>
+        </form>
+    </h2>
+</body>
+
+</html>

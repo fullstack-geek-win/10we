@@ -1,0 +1,40 @@
+http://127.0.0.1:5500/landingpage.html?
+items=batchD&
+address=No%3A13%2C+Siva+st%2C%0D%0AKolathur%2C%0D%0AChennai+-+600099
+
+
+http://127.0.0.1:5500/landingpage.html?items=batchA&address=sf&lang1=tamil&upload=student.jpg&
+SecurID=SecurID_PANNO_AADHARNO
+
+
+http://127.0.0.1:5500/landingpage.html?items=batchA&address=srthsgs&lang1=tamil&english=english&upload=favicon.png
+http://127.0.0.1:5500/landingpage.html?
+items=batchB&
+address=No%3A55%0D%0AKumaran+Ngr&
+tamil=tamil&french=french
+
+http://127.0.0.1:5500/landingpage.html?
+studentname=Balaji&
+age=45&
+gender=1
+&course=mca
+&telephone=9600074577
+&Email=balaji.k%40intelizign.com
+&loginid=E001
+&password=King%40123
+
+BackEND Programming
+-Database
+	StudID Primary Key Numeric minvalue 10 step 1 (no empty; no null; no duplicates)
+	1
+	2
+	3
+	4
+	E008
+	Retrieve fromDB
+	StudIDvariable = Concandinate("E00" + StudID)
+	StudID = StudID + 1
+	StudIDvariable = E009
+-Json format
+
+balaji 

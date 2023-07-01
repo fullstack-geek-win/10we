@@ -1,0 +1,60 @@
+/*External style sheet created by Geetha on 01-July-23*/
+/* 
+Selector[type:controltype] {
+    property: value;
+}
+Selector
+--------
+1. HTML tag
+2. Class .
+3. ID #
+*/
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-family: cursive;
+
+}
+
+h2 {
+    color: brown;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 200px;
+
+}
+
+button {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+table,
+tr,
+td {
+    margin-left: auto;
+    margin-right: auto;
+    /* border-style: double;
+    border-color: black; */
+}
+
+.make-center {
+    text-align: center;
+}
+
+input[type=text] {
+    border-radius: 20px;
+}

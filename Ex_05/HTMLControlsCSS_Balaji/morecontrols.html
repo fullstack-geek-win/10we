@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="./landingpage.html" method="get">
+        <select name="items" id="items">
+            <option value="default">--Select Any Items--</option>
+            <option value="batchA">--Batch A--</option>
+            <option value="batchB">--Batch B--</option>
+            <option value="batchC">--Batch C--</option>
+            <option value="batchD" selected>--Batch D--</option>
+        </select>
+        <div>
+            <label for="address"></label>
+            <textarea name="address" id="address" cols="15" rows="4"></textarea>
+        </div>
+        <div>
+            <label>Languages : </label>
+            <br><input type="checkbox" id="tamil" name="lang1" value="tamil">
+            <label for="lang1">Tamil</label>
+            <br><input type="checkbox" id="english" name="english" value="english">English
+            <br><input type="checkbox" id="french" name="french" value="french">French
+        </div>
+        <div>
+            <input type="file" id="upload" name="upload">
+        </div>
+        <div>
+            <input type="hidden" id="SecurID" name="SecurID" value="SecurID_PANNO_AADHARNO">
+        </div>
+        <div>
+            <input type="datetime-local" value="today">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
