@@ -1,0 +1,22 @@
+Task List
+
+Order Project
+Page 1 static
+1. Food Menu - 
+Task1 - Identify an food menu with prize list image from google, and created the same design using HTML/CSS
+
+Dynamic -> form
+2. Place Order
+Menu food item Dropdown
+Text -> prize
+Submit
+
+Biriyani
+120
+
+static
+3. Billing
+Display Food Item Name & Its Prize
+"Your Order is Placed!"
+
+
