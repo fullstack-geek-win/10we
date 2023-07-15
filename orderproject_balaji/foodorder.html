@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Created by Geetha-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/favicon.jpg">
+    <!--Calling external stylesheet-->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>The Spice Delight - Food corner</title>
+</head>
+
+<body>
+    <!--Header panel design-->
+    <h1>
+        <table>
+            <div>
+                <tr>
+                    <td><img src="./image/header/spice3.jpg" alt="This image does not exists temporarily"></td>
+                    <td></td>
+                    <td><img src="./image/header/sdlogo1.jpg" alt="This image does not exists temporarily"></td>
+                    <td> The Spice Delight </td>
+                    <td><img src="./image/header/spice1.jpg" alt="This image does not exists temporarily"></td>
+                    <td></td>
+                    <td><img src="./image/header/spice4.jpg" alt="This image does not exists temporarily"></td>
+                </tr>
+
+            </div>
+        </table>
+    </h1>
+    <table style="margin-left: 0% ">
+        <tr>
+            <!--Left panel design-->
+            <div>
+                <td>
+                    <table style="background-color:blueviolet;">
+                        <tr>
+                            <div>
+                                <td>
+
+                                    <a href="./index.html">
+                                        <h2>Food Menu</h2>
+                                    </a>
+                                    <img style="width:150px;height:225px;" src="./image/leftpanel/foodbackground1.jpg"
+                                        alt="This image does not exists temporarily">
+                                </td>
+                            </div>
+                        </tr>
+                        <tr>
+                            <div>
+                                <td>
+                                    <a href="./foodorder.html">
+                                        <h2>Food Order</h2>
+                                    </a>
+                                    <img style="width:150px;height:300px;" src="./image/leftpanel/foodbackground3.jpg"
+                                        alt="This image does not exists temporarily">
+                                </td>
+                            </div>
+                        </tr>
+                    </table>
+                </td>
+            </div>
+            <!--Form creation for placing order-->
+            <div>
+                <td>
+                    <table style="background-color:palevioletred;border:solid goldenrod;">
+                        <form action="./DeliveryAndBilling.html" method="get">
+                            <tr>
+                                <td>
+                                    <h4>Order Food Online</h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>CUSTOMER NAME</label>
+                                </td>
+                                <td><input type="text" id="firstname" name="firstname" placeholder="Enter your Name"
+                                        minlength="3" maxlength="10">
+                                </td>
+                                <td>
+                                    <label>EMAIL ID</label>
+                                </td>
+                                <td><input type="email" id="email" name="email" placeholder="Enter your email id">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>ADDRESS</label>
+                                </td>
+                                <td>
+                                    <textarea name="address" id="address" cols="15" rows="4"></textarea>
+                                </td>
+                                <td>
+                                    <label>MOBILE NO</label>
+                                </td>
+                                <td><input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile no">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>SNACKS ITEMS</label>
+                                </td>
+                                <!-- <td>
+                                    <input type="checkbox" id="frenchfries" name="snack" value="frenchfries">
+                                    <label for="frenchfries">FrenchFries</label>
+                                    <input type="checkbox" id="vada" name="snack" value="vada">
+                                    <label for="vada">Vada</label>
+                                    <input type="checkbox" id="bananafry" name="snack" value="bananafry">
+                                    <label for="bananafry">Bananafry</label>
+                                    <input type="checkbox" id="samosa" name="snack" value="samosa">
+                                    <label for="samosa">Samosa</label>
+                                    <input type="checkbox" id="springroll" name="snack" value="springroll">
+                                    <label for="springroll">Springroll</label>
+                                </td> -->
+                                <td>
+                                    <select name="snacks" id="snacks">
+                                        <option value="default">Select Snacks Items</option>
+                                        <option value="frenchfries">FrenchFries</option>
+                                        <option value="vada">Vada</option>
+                                        <option value="bananafry">Bananafry</option>
+                                        <option value="samosa">Samosa</option>
+                                        <option value="springroll">Springroll</option>
+                                        <option value="fishfingers">Fishfingers</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <!-- <tr>
+                                <td>
+                                    <label>SNACKS ITEMS</label>
+                                </td>
+                                
+                            </tr>-->
+
+                            <tr>
+                                <td colspan="2"><img style="width:225px;height: 120px;" src="./image/menu/snacks.jpg">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>BIRIYANI VARIETIES</label>
+                                <!-- </td>
+                                <td>
+                                    <input type="checkbox" id="Chicken" name="biriyani" value="Chicken">
+                                    <label for="Chicken">Chicken</label>
+                                    <input type="checkbox" id="Mutton" name="biriyani" value="Mutton">
+                                    <label for="Mutton">Mutton</label>
+                                    <input type="checkbox" id="Prawns" name="biriyani" value="Prawns">
+                                    <label for="Prawns">Prawns</label>
+                                    <input type="checkbox" id="Fish" name="biriyani" value="Fish">
+                                    <label for="Fish">Fish</label>
+                                    <input type="checkbox" id="Vegetable" name="biriyani" value="Vegetable">
+                                    <label for="Vegetable">Vegetable</label>
+                                    <input type="checkbox" id="Paneer" name="biriyani" value="Paneer">
+                                    <label for="Paneer">Paneer</label>
+                                </td> -->
+                                <td>
+                                    <select name="biriyani" id="biriyani">
+                                        <option value="default">Select Biriyani</option>
+                                        <option value="chicken">Chicken Biriyani</option>
+                                        <option value="mutton">Mutton Biriyani</option>
+                                        <option value="prawns">Prawns Biriyani</option>
+                                        <option value="fish">Fish Biriyani</option>
+                                        <option value="vegetable">Vegetable Biriyani</option>
+                                        <option value="paneer">Paneer Biriyani</option>
+                                    </select>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td colspan="2"><img style="width:225px;height: 120px;" src="./image/menu/biriyani.jpg">
+                                </td>
+                            </tr>
+                            <tr>
+                            <tr>
+                                <td>
+                                    <label>HOT DRINKS</label>
+                                </td> 
+                                <!-- <td>
+                                    <input type="checkbox" id="Tea" name="hotdrink" value="Tea">
+                                    <label for="Tea">Tea</label>
+                                    <input type="checkbox" id="blacktea" name="hotdrink" value="blacktea">
+                                    <label for="blacktea">Black Tea</label>
+                                    <input type="checkbox" id="greentea" name="hotdrink" value="greentea">
+                                    <label for="greentea">Green Tea</label>
+                                    <input type="checkbox" id="expresso" name="hotdrink" value="expresso">
+                                    <label for="expresso">Expresso</label>
+                                    <input type="checkbox" id="nescafe" name="hotdrink" value="nescafe">
+                                    <label for="nescafe">Nescafe</label>
+                                </td> -->
+                                <td>
+                                    <select name="hotdrinks" id="hotdrinks">
+                                        <option value="default">Select Hot Drinks</option>
+                                        <option value="Tea">Tea</option>
+                                        <option value="blacktea">Black Tea</option>
+                                        <option value="greentea">Green Tea</option>
+                                        <option value="expresso">Expresso</option>
+                                        <option value="nescafe">Nescafe</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><img style="width:225px;height: 120px;" src="./image/menu/tea.jpg">
+                                </td>
+                            </tr>
+                            <td colspan="2" align="center">
+                                <button type="submit"
+                                    style="font-weight:bolder;border-color:darkred;width:150px; height: 30px;border-style: double; color: brown;font-family: cursive;">PLACE
+                                    ORDER</button>
+                            </td>
+        </tr>
+
+        </form>
+    </table>
+    </td>
+    </div>
+    <!--Right panel design-->
+    <td>
+        <table style="background-color:lightslategray;border:solid goldenrod;">
+            <tr>
+                <td colspan="2"><img style="width:200px;height: 180px;" src="./image/fooddelivery3.jpg">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><img style="width:200px;height: 175px;" src="./image/fooddelivery1.jpg">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><img style="width:200px;height: 150px;" src="./image/fooddelivery2.jpg">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><img style="width:185px;height: 150px;" src="./image/fooddelivery.jpg">
+                </td>
+            </tr>
+
+        </table>
+
+    </td>
+    </tr>
+
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Geetha-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="image/favicon.jpg" />
+    <!--Calling external stylesheet-->
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>The Spice Delight - Food corner</title>
+  </head>
+
+  <body onload="changeValue()">
+    <!--Header panel design-->
+    <h1>
+      <table>
+        <div>
+          <tr>
+            <td>
+              <img
+                src="./image/header/spice3.jpg"
+                alt="This image does not exists temporarily"
+              />
+            </td>
+            <td></td>
+            <td>
+              <img
+                src="./image/header/sdlogo1.jpg"
+                alt="This image does not exists temporarily"
+              />
+            </td>
+            <td>The Spice Delight</td>
+            <td>
+              <img
+                src="./image/header/spice1.jpg"
+                alt="This image does not exists temporarily"
+              />
+            </td>
+            <td></td>
+            <td>
+              <img
+                src="./image/header/spice4.jpg"
+                alt="This image does not exists temporarily"
+              />
+            </td>
+          </tr>
+        </div>
+      </table>
+    </h1>
+
+    <table style="margin-left: 0%">
+      <tr>
+        <!--Left panel design-->
+        <td>
+          <table style="background-color: blueviolet">
+            <tr>
+              <div>
+                <td>
+                  <a href="./index.html">
+                    <h2>Food Menu</h2>
+                  </a>
+                  <img
+                    style="width: 150px; height: 150px"
+                    src="./image/leftpanel/foodbackground1.jpg"
+                    alt="This image does not exists temporarily"
+                  />
+                </td>
+              </div>
+            </tr>
+            <tr>
+              <div>
+                <td>
+                  <a href="./foodorder.html">
+                    <h2>Food Order</h2>
+                  </a>
+                  <img
+                    style="width: 150px; height: 250px"
+                    src="./image/leftpanel/foodbackground3.jpg"
+                    alt="This image does not exists temporarily"
+                  />
+                </td>
+              </div>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align: center">
+          <div>
+            <label for="out_firstname"></label>
+            <input
+              type="text"
+              readonly
+              id="out_firstname"
+              name="out_firstname"
+            />
+          </div>
+          <div>
+            <label for="out_email"></label>
+            <input type="text" readonly id="out_email" name="out_email" />
+          </div>
+          <div>
+            <label for="out_address"></label>
+            <input type="text" readonly id="out_address" name="out_address" />
+          </div>
+          <div>
+            <label for="out_mobile"></label>
+            <input type="text" readonly id="out_mobile" name="out_mobile" />
+          </div>
+          <div>
+            <label for="out_snack4"></label>
+            <input type="text" readonly id="out_snack4" name="out_snack4" />
+          </div>
+          <div>
+            <label for="out_biriyani5"></label>
+            <input
+              type="text"
+              readonly
+              id="out_biriyani5"
+              name="out_biriyani5"
+            />
+          </div>
+          <div>
+            <label for="out_hotdrink4"></label>
+            <input
+              type="text"
+              readonly
+              id="out_hotdrink4"
+              name="out_hotdrink4"
+            />
+          </div>
+          <div>
+            <button onclick="calculation">Calculate</button>
+          </div>
+          <h3>YOUR ORDER PLACED SUCCESSFULLY</h3>
+        </td>
+        <!--Calling javascript function to get the data-->
+        <td><div id="result"></div></td>
+      </tr>
+    </table>
+    <!--Calling java script-->
+    <script type="text/javascript" src="./Javascript/script.js"></script>
+  </body>
+</html>
