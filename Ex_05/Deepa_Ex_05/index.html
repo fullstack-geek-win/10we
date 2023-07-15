@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration</title>
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <img src="images/registration.png" width="120" alt="" />
+        <h1>Student Registration Form</h1>
+      </div>
+      <div class="form">
+        <form action="/landingpage.html" method="get">
+          <table>
+            <tr>
+              <td><label for="firstname">First Name</label></td>
+              <td>
+                <input
+                  type="text"
+                  id="firstname"
+                  name="firstname"
+                  minlength="3"
+                  maxlength="15"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="lastname">Last Name</label></td>
+              <td>
+                <input
+                  type="text"
+                  id="lastname"
+                  name="lastname"
+                  minlength="1"
+                  maxlength="15"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label>Gender</label></td>
+              <td>
+                <input
+                  type="radio"
+                  id="male"
+                  name="gender"
+                  value="Male"
+                  required
+                />
+                <label for="male">Male</label>
+                <input
+                  type="radio"
+                  id="female"
+                  name="gender"
+                  value="Female"
+                  required
+                />
+                <label for="female">Female</label>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="dob">Date of Birth</label></td>
+              <td><input type="date" id="dob" name="dob" required /></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email Id</label></td>
+              <td><input type="email" id="email" name="email" required /></td>
+            </tr>
+            <tr>
+              <td><label for="password">Password</label></td>
+              <td>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  minlength="6"
+                  maxlength="15"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="phone">Phone Number</label></td>
+              <td>
+                <input
+                  type="number"
+                  id="phone"
+                  name="phone"
+                  minlength="10"
+                  maxlength="10"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="address">Address</label></td>
+              <td>
+                <textarea
+                  name="address"
+                  id="address"
+                  cols="25"
+                  rows="5"
+                  required
+                ></textarea>
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="city">City</label></td>
+              <td>
+                <input
+                  type="text"
+                  id="city"
+                  name="city"
+                  minlength="3"
+                  maxlength="20"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="pincode">Pin Code</label></td>
+              <td>
+                <input
+                  type="number"
+                  id="pincode"
+                  name="pincode"
+                  minlength="6"
+                  maxlength="6"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="state">State</label></td>
+              <td>
+                <input
+                  type="text"
+                  id="state"
+                  name="state"
+                  minlength="3"
+                  maxlength="20"
+                  required
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="country">Country</label></td>
+              <td>
+                <input
+                  type="text"
+                  id="country"
+                  name="country"
+                  minlength="3"
+                  maxlength="20"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="courses">Courses Applied for</label></td>
+              <td>
+                <select name="courses" id="courses" required>
+                  <option value="default">Select Course</option>
+                  <option value="BCA">BCA</option>
+                  <option value="B.Com">B.Com</option>
+                  <option value="B.Sc">B.Sc</option>
+                  <option value="B.A">B.A</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label>Hobbies</label></td>
+              <td>
+                <input type="checkbox" id="drawing" name="hobbies" />
+                <label for="drawing">Drawing</label>
+                <input type="checkbox" id="music" name="hobbies" />
+                <label for="music">Music</label>
+                <input type="checkbox" id="movies" name="hobbies" />
+                <label for="movies">Movies</label>
+                <input type="checkbox" id="sports" name="hobbies" />
+                <label for="sports">Sports</label>
+                <input type="checkbox" id="travel" name="hobbies" />
+                <label for="travel">Travel</label>
+                <input type="checkbox" id="others" name="hobbies" />
+                <label for="others">Others</label>
+                <input type="text" id="others" name="others" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="file">Upload Photo</label></td>
+              <td>
+                <input
+                  type="file"
+                  id="file"
+                  name="file"
+                  class="file"
+                  required
+                />
+              </td>
+            </tr>
+            <tr class="btn">
+              <td colspan="2">
+                <input type="submit" value="Submit" class="btn-style" />
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

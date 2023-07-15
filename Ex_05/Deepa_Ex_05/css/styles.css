@@ -1,0 +1,55 @@
+body {
+  background-color: ghostwhite;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 62%;
+  text-align: center;
+}
+.title {
+  margin-top: 25px;
+}
+.form {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  line-height: 30px;
+  background-color: white;
+}
+table {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+table tr td {
+  text-align: left;
+}
+input,
+textarea,
+select {
+  font-size: 16px;
+  color: black;
+  border-radius: 5px;
+  border: 2px solid gray;
+}
+.file {
+  border: none;
+}
+.btn td {
+  text-align: center;
+}
+.btn-style {
+  background-color: black;
+  color: white;
+  padding: 8px 20px;
+  margin: 10px 0 0 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
