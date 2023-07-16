@@ -1,0 +1,38 @@
+.layout{
+    text-align: center;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 10vh 5vh 80vh 5vh;
+    grid-template-areas: 
+    /* h5 */
+    "h h h h h" 
+    "sh sh sh sh sh" 
+    /* middle content 5 + ls 1 + rs 1 */
+    "sb1 sb1 m m sb2"
+    /* f5 */
+    "f f f f f";
+
+}
+
+.header {
+    grid-area:h;
+}
+
+.header1 {
+    grid-area:sh;
+}
+
+.sidebar1 {
+    grid-area:sb1;
+}
+
+.main {
+    grid-area: m;
+}
+.sidebar2 {
+    grid-area:sb2;
+}
+
+.footer{
+    grid-area:f;
+}
