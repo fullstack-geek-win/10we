@@ -1,0 +1,16 @@
+Table
+CSS GRID
+@media
+Responsive
+
+HTML CSS
+Javascript DOM
+
+Javascript
+-----------
+Declarations
+Variables
+Control Flow
+	Conditional statements
+	Looping statements
+
