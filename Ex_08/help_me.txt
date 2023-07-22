@@ -1,0 +1,37 @@
+const numbers = [650, 440, 120, 40];
+
+arr -> numbers
+index -> position of the array
+item -> value of the array
+
+
+numbers.forEach(myFunction)
+
+
+
+function myFunction(item, index, arr) {
+  arr[index] = item * 10;
+}
+
+
+document.getElementById("demo").innerHTML = numbers;
+
+array
+arraylist
+collection
+list
+
+LINQ -> query, filter, sort, index
+
+
+http://127.0.0.1:5501/billingCalculation.html?
+customername=GEETHA&
+phone=9600074577&
+address=62B%2C+T1+3rd+Floor%0D%0ARajnis+Shree+Maharagyni&
+
+snack1=FrenchFries&
+snack2=Vada&
+biriyani1=ChickenBiriyani&
+hotdrink1=Tea
+
+

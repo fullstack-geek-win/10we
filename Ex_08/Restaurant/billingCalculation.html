@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/favicon.jpg">
+    <!--Calling external stylesheet-->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>The Spice Delight - Food corner</title>
+    <style>
+        .tb {
+            border-collapse: collapse;
+            width: auto;
+        }
+
+        .tb th,
+        .tb td {
+            padding: 5px;
+            border: solid 1px #777;
+        }
+
+        .tb th {
+            background-color: lightblue;
+        }
+
+        .bill {
+            border: 2px solid black;
+        }
+        .bill thead td {
+            border: 2px solid black;
+            font-size: 2rem;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .bill tbody td {
+            border: 1px solid black;
+            font-size: 1rem;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    </style>
+
+</head>
+
+<body onload="changeValue()">
+    <h1>
+        <table>
+            <div>
+                <tr>
+                    <td><img src="./image/header/spice3.jpg" alt="This image does not exists temporarily"></td>
+                    <td></td>
+                    <td><img src="./image/header/sdlogo1.jpg" alt="This image does not exists temporarily"></td>
+                    <td> The Spice Delight </td>
+                    <td><img src="./image/header/spice1.jpg" alt="This image does not exists temporarily"></td>
+                    <td></td>
+                    <td><img src="./image/header/spice4.jpg" alt="This image does not exists temporarily"></td>
+                </tr>
+
+            </div>
+        </table>
+    </h1>
+    <table class="bill">
+        <thead><tr>
+            <!-- Item -->
+            <td>Item</td>
+            <!-- Quantity -->
+            <td>Quantity</td>
+            <!-- Prize -->
+            <td>Prize</td>
+            <!-- SubTotal -->
+            <td>SubTotal</td>
+        </tr>
+    </thead>
+        <tbody>
+            <tr>
+                <!-- Item -->
+                <td>
+                    <input type="text" readonly id="out_snack1" name="out_snack1" size="15" />
+                </td>
+                <!-- Quantity -->
+                <td>
+                    <input type="number" id="snack1_qty" name="snack1_qty" min="1" value="1" >
+                </td>
+                <!-- Prize -->
+                <td>
+                    <input type="text" id="snack1_prize" name="snack1_prize" value="95.00" readonly>
+                </td>
+                <!-- SubTotal -->
+                <td>
+                    <input type="text" readonly id="snack1_subtot" name="snack1_subtot">
+                </td>
+                <td>
+                    <button onclick="changeSubTotal()">Re-Calculate</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- <table class="tb" onchange="calculateTotal()">
+        <tr>
+            <th>Selected Food</th>
+            <th>Qty</th>
+            <th>Price</th>
+
+        </tr>
+        <tr>
+            <td>
+                <input type="text" readonly id="out_snack1" name="out_snack1" size="10" />
+                <input type="text" readonly id="frenchfries" name="frenchfries" value="frenchfries" />
+            </td>
+            <td onchange="calculateTotal()"><input type="number" value="0" class="qty" id="qty_frenchfries" /></td>
+            <td><input type="number" readonly value="0" id="price_frenchfries" /></td>
+
+        </tr>
+        <tr>
+            <td>Vada</td>
+            <td>35</td>
+            <td>2</td>
+            <td>70</td>
+        </tr>
+
+    </table> -->
+
+    <script type="text/javascript" src="./Javascript/script.js"></script>
+</body>
+
+</html>
