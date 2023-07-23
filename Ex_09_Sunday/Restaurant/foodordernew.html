@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/favicon.jpg">
+    <!--Calling external stylesheet-->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>The Spice Delight - Food corner</title>
+</head>
+
+<body>
+    <!--Header panel design-->
+    <h1>
+        <table>
+            <div>
+                <tr>
+                    <td><img src="./image/header/spice3.jpg" alt="This image does not exists temporarily"></td>
+                    <td></td>
+                    <td><img src="./image/header/sdlogo1.jpg" alt="This image does not exists temporarily"></td>
+                    <td> The Spice Delight </td>
+                    <td><img src="./image/header/spice1.jpg" alt="This image does not exists temporarily"></td>
+                    <td></td>
+                    <td><img src="./image/header/spice4.jpg" alt="This image does not exists temporarily"></td>
+                </tr>
+
+            </div>
+        </table>
+    </h1>
+
+    <table style="margin-left: 0% ">
+        <tr>
+            <!--Left panel design-->
+            <div>
+                <td>
+                    <table style="background-color:blueviolet;">
+                        <tr>
+                            <div>
+                                <td>
+
+                                    <a href="./index.html">
+                                        <h2>Food Menu</h2>
+                                    </a>
+                                    <img style="width:150px;height:225px;" src="./image/leftpanel/foodbackground1.jpg"
+                                        alt="This image does not exists temporarily">
+                                </td>
+                            </div>
+                        </tr>
+                        <tr>
+                            <div>
+                                <td>
+                                    <a href="./foodorder.html">
+                                        <h2>Food Order</h2>
+                                    </a>
+                                    <img style="width:150px;height:300px;" src="./image/leftpanel/foodbackground3.jpg"
+                                        alt="This image does not exists temporarily">
+                                </td>
+                            </div>
+                        </tr>
+                    </table>
+                </td>
+            </div>
+
+            <!--Form creation for placing order-->
+            <div>
+                <td>
+                    <table style="background-color:palevioletred;border:solid goldenrod;">
+                        <form action="./billingCalculation.html" method="get">
+                            <tr>
+                                <td>
+                                    <h4>Order Food Online</h4>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="customername">CUSTOMER NAME</label>
+                                </td>
+                                <td><input type="text" id="customername" name="customername"
+                                        placeholder="Enter your Name" minlength="3" maxlength="10" required>
+                                </td>
+                            <tr>
+                                <td>
+                                    <label for="phone">MOBILE NO</label>
+                                </td>
+                                <td><input type="tel" id="phone" name="phone" placeholder="Enter your phone no"
+                                        required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="address">ADDRESS</label>
+                                </td>
+                                <td>
+                                    <textarea name="address" id="address" cols="15" rows="4" required></textarea>
+                                </td>
+                            </tr>
+
+        </tr>
+
+        <tr>
+            <td>
+                <label>SNACKS ITEMS</label>
+            </td>
+            <td>
+                <input type="checkbox" id="snack1" name="snack1" value="FrenchFries">
+                <label for="snack1">FrenchFries</label>
+                <input type="checkbox" id="snack2" name="snack2" value="Vada">
+                <label for="snack2">Vada</label>
+                <input type="checkbox" id="snack3" name="snack3" value="Bananafry">
+                <label for="snack3">Bananafry</label>
+                <input type="checkbox" id="snack4" name="snack4" value="Samosa">
+                <label for="snack4">Samosa</label>
+                <input type="checkbox" id="snack5" name="snack5" value="Springroll">
+                <label for="snack5">Springroll</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><img style="width:225px;height: 120px;" src="./image/menu/snacks.jpg">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>BIRIYANI VARIETIES</label>
+            </td>
+            <td>
+                <input type="checkbox" id="biriyani1" name="biriyani1" value="ChickenBiriyani">
+                <label for="biriyani1">Chicken</label>
+                <input type="checkbox" id="biriyani2" name="biriyani2" value="MuttonBiriyani">
+                <label for="biriyani2">Mutton</label>
+                <input type="checkbox" id="biriyani3" name="biriyani3" value="PrawnsBiriyani">
+                <label for="biriyani3">Prawns</label>
+                <input type="checkbox" id="biriyani4" name="biriyani4" value="FishBiriyani">
+                <label for="biriyani4">Fish</label>
+                <input type="checkbox" id="biriyani5" name="biriyani5" value="VegetableBiriyani">
+                <label for="biriyani5">Vegetable</label>
+                <input type="checkbox" id="biriyani6" name="biriyani6" value="PaneerBiriyani">
+                <label for="biriyani6">Paneer</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><img style="width:225px;height: 120px;" src="./image/menu/biriyani.jpg">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>HOT DRINKS</label>
+            </td>
+            <td>
+                <input type="checkbox" id="hotdrink1" name="hotdrink1" value="Tea">
+                <label for="hotdrink1">Tea</label>
+                <input type="checkbox" id="hotdrink2" name="hotdrink2" value="BlackTea">
+                <label for="hotdrink2">BlackTea</label>
+                <input type="checkbox" id="hotdrink3" name="hotdrink3" value="GreenTea">
+                <label for="hotdrink3">GreenTea</label>
+                <input type="checkbox" id="hotdrink4" name="hotdrink4" value="Expresso">
+                <label for="hotdrink4">Expresso</label>
+                <input type="checkbox" id="hotdrink5" name="hotdrink5" value="Nescafe">
+                <label for="hotdrink5">Nescafe</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><img style="width:225px;height: 120px;" src="./image/menu/tea.jpg">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="text" id="flag" name="flag" value="0" size="1">
+                <button type="submit" onclick="return CheckBoxValidation()"
+                    style="font-weight:bolder;border-color:darkred;width:150px; height: 30px;border-style: double; color: brown;font-family: cursive;">PLACE
+                    ORDER</button>
+            </td>
+        </tr>
+        </form>
+    </table>
+    </td>
+    </div>
+    </tr>
+    </table>
+
+    <script>
+        function CheckBoxValidation() {
+            let checkboxes = document.getElementsByTagName("input");
+            let flag = 0;
+            for (var i=0; i < checkboxes.length; i++) {
+                if (checkboxes[i].type == "checkbox") 
+                    if (checkboxes[i].checked) {
+                        flag++;
+                    }
+            }
+
+            if (flag == 0) {
+                alert("Please select atleast one Food Item");
+                return false;
+            }
+
+            document.getElementById("flag").value = flag;
+            return true;
+        }
+    </script>
+</body>
+
+</html>

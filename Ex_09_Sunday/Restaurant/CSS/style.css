@@ -1,0 +1,47 @@
+h1 {
+    background-color: darkgreen;
+    color: mediumspringgreen;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: center;
+}
+/*External stylesheet for restaurent menu project*/
+h2 {
+    font-weight: bold;
+    font-family: cursive;
+    color: yellow;
+}
+
+h3 {
+    font-size: x-large;
+    font-weight: bolder;
+    color: darkolivegreen;
+    font-family: cursive;
+}
+
+h4 {
+    font-size: x-large;
+    font-weight: bold;
+    color: teal;
+    font-family: cursive;
+}
+
+
+img {
+    display: block;
+    height: 150px;
+    width: 150px;
+    /* margin-left: auto;
+    margin-right: auto;*/
+
+}
+
+table,
+tr,
+td {
+    /*border: 2px solid black;*/
+    margin-left: auto;
+    margin-right: auto;
+
+}
+

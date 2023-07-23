@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/favicon.jpg">
+    <!--Calling external stylesheet-->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>The Spice Delight - Food corner</title>
+    <style>
+        .tb {
+            border-collapse: collapse;
+            width: auto;
+        }
+
+        .tb th,
+        .tb td {
+            padding: 5px;
+            border: solid 1px #777;
+        }
+
+        .tb th {
+            background-color: lightblue;
+        }
+
+        .bill {
+            border: 2px solid black;
+        }
+        .bill thead td {
+            border: 2px solid black;
+            font-size: 2rem;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .bill tbody td {
+            border: 1px solid black;
+            font-size: 1rem;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    </style>
+
+</head>
+
+<body onload="changeValue()">
+    <h1>
+        <table>
+            <div>
+                <tr>
+                    <td><img src="./image/header/spice3.jpg" alt="This image does not exists temporarily"></td>
+                    <td></td>
+                    <td><img src="./image/header/sdlogo1.jpg" alt="This image does not exists temporarily"></td>
+                    <td> The Spice Delight </td>
+                    <td><img src="./image/header/spice1.jpg" alt="This image does not exists temporarily"></td>
+                    <td></td>
+                    <td><img src="./image/header/spice4.jpg" alt="This image does not exists temporarily"></td>
+                </tr>
+
+            </div>
+        </table>
+    </h1>
+
+    <div id="divTable">
+
+    </div>
+
+    <script type="text/javascript" src="./Javascript/script.js"></script>
+    <script type="javascript" src="./Javascript/dynamicTable.js"></script>
+</body>
+
+</html>
