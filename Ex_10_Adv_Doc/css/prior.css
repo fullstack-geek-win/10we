@@ -1,0 +1,21 @@
+h1, h2 {
+    border: 5px dashed blue;
+}
+
+h1+h2 {
+    border: 5px dashed blue;
+}
+
+h2 {
+    border: 7px solid red;
+}
+p {
+    text-align: justify;
+    border: 5px solid black;
+}
+
+img {
+    float: left;
+    border-radius: 90%;
+}
+

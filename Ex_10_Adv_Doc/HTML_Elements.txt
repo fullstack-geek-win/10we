@@ -1,0 +1,62 @@
+HTML Elements
+=============
+Structural Markup
+-----------------
+h1 - h6 -> Headings
+p -> paragraph
+b -> bold
+i -> italic
+u -> underline
+sup -> superscript
+sub -> subscript
+pre -> preformatted text
+br -> line break
+hr -> Horizontal line
+
+Semantic Markup
+---------------
+strong -> like bold
+em -> like italic
+q -> quotes
+blockquote -> large quotes (blocked quote)
+abbr -> abbreviation
+cite -> citation content (reference from another link)
+dfn -> definition
+address -> email, url address
+del -> delete
+ins -> include after delete
+s -> strike through
+
+List
+====
+ul -> unordered list
+ol -> ordered list
+	type a, A, i, I
+	start 101
+dl -> definition list
+	dt -> title
+	dd -> data
+
+li -> list items
+
+Links
+=====
+a -> Anchor
+	href -> hypertext reference
+		- absolute URL -> href="www.google.com"
+		- relative URL -> href="./index.html"
+		- mailto
+		<a href="mailto:john@example.com? subject=Learn about MailTo tags in HTML">Email Me</a>		
+	target = "_black" -> open in another tag/page
+	
+
+
+	
+
+
+
+
+
+
+
+ 

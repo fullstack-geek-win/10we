@@ -1,0 +1,60 @@
+* {
+    background-color: white;
+}
+
+h1, p {
+    color:cadetblue;
+}
+/* p {
+    color:cadetblue;
+} */
+
+.headstyle {
+    color:firebrick;
+}
+
+#headidentity {
+    color: #8a2be2;
+}
+
+/* Descendent Selector */
+div p {
+    border: 2px solid red;
+}
+
+/* child selector */
+div>p {
+    border: 2px solid white;
+}
+
+h1~h2 {
+    font-size: 4rem;
+}
+h1~h3 {
+    font-size: 3rem;
+}
+h1~h4 {
+    font-size: 2rem;
+}
+h1~p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+}
+q+p {
+    font-size: 10rem;
+}
+
+.center {
+    border: 5px dotted blue;
+}
+
+h2.center {
+    text-align: center;
+}
+
+p.center {
+    text-align: right;
+}
+
+
+
