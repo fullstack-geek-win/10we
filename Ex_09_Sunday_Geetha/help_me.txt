@@ -1,0 +1,78 @@
+http://127.0.0.1:5501/billingCalculation.html?customername=GEETHA&phone=9600074577&address=62B%2C+T1+3rd+Floor%0D%0ARajnis+Shree+Maharagyni&snack1=FrenchFries&biriyani1=ChickenBiriyani&hotdrink1=Tea&
+flag=3
+
+http://127.0.0.1:5501/billingCalculation.html?customername=GEETHA&phone=9600074577&address=62B%2C+T1+3rd+Floor%0D%0ARajnis+Shree+Maharagyni&snack1=FrenchFries&biriyani1=ChickenBiriyani&hotdrink1=Tea&
+flag=3
+
+
+    <table class="bill">
+        <thead><tr>
+            <!-- Item -->
+            <td>Item</td>
+            <!-- Quantity -->
+            <td>Quantity</td>
+            <!-- Prize -->
+            <td>Prize</td>
+            <!-- SubTotal -->
+            <td>SubTotal</td>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- Item -->
+                <td>
+                    <input type="text" readonly id="out_snack1" name="out_snack1" size="15" />
+                </td>
+                <!-- Quantity -->
+                <td>
+                    <input type="number" onchange="changeSubTotal()" id="snack1_qty" name="snack1_qty" min="1" value="1" >
+                </td>
+                <!-- Prize -->
+                <td>
+                    <input type="text" id="snack1_prize" name="snack1_prize" value="95.00" readonly>
+                </td>
+                <!-- SubTotal -->
+                <td>
+                    <input type="text" readonly id="snack1_subtot" name="snack1_subtot">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+	
+	// create dynamic table
+        const divTable = document.getElementById("divTable");
+
+        let tr = document.createElement("tr");
+        let td = document.createElement("td");
+
+        td.nodeValue = "Item";
+        divTable.appendChild(td);
+        td.nodeValue = "Quantity";
+        divTable.appendChild(td);
+        td.nodeValue = "Prize";
+        divTable.appendChild(td);
+        td.nodeValue = "SubTotal";
+        divTable.appendChild(td);
+        
+        divTable.appendChild(tr);
+    }
+
+    let table = document.createElement("table");
+    let thead = document.createElement("thead");
+    let tbody = document.createElement("tbody");
+
+        divTable.appendChild(thead);
+
+        table.className = "bill"
+        divTable.appendChild(table);
+	
+http://127.0.0.1:5501/billingCalculation.html?
+customername=GEETHA&
+phone=9600074577&
+address=62B%2C+T1+3rd+Floor%0D%0ARajnis+Shree+Maharagyni&
+snack1=FrenchFries&
+biriyani1=ChickenBiriyani&
+hotdrink1=Tea&
+flag=3        
+        
+
