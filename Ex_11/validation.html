@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript validation</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <form action="./index.html" method="get">
+        <table>
+            <tr>
+                <td><label for="salary1">Salary</label></td>
+                <td><input type="text" id="salary1" name="salary1"/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label id="err"></label></td>
+            </tr>
+            <tr>
+                <td><label for="DOB">Salary</label></td>
+                <td><input type="date" id="DOB" name="DOB" onchange="return DOBValidation()"/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label id="agemsg"></label></td>
+            </tr>
+        </table>
+        <div>
+            <button type="submit" onclick="return Validation()">Click</button>
+        </div>
+    </form>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
