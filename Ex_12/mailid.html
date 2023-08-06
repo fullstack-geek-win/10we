@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title of the page-->
+    <title>GoogleAccount</title>
+    <!--Calling external stylesheet-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="brndclr">
+    <!-- <form action="./pswd.html" method="get">
+        <div>
+            <label for="out_firstname"></label>
+            <input type="hidden" readonly id="out_firstname" name="out_firstname" value="out_firstname">
+        </div><br>
+
+        <div>
+            <label for="out_lastname"></label>
+            <input type="hidden" readonly id="out_lastname" name="out_lastname" value="out_lastname">
+        </div><br>
+
+        <div>
+            <label for="out_gendr"></label>
+            <input type="hidden" readonly id="out_gendr" name="out_gendr" value="out_gendr">
+        </div><br>
+
+        <div>
+            <label></label>
+            <input type="hidden" readonly id="out_dateofbirth" name="out_dateofbirth" value="out_dateofbirth">
+        </div><br>
+
+        <div>
+            <label class="starcolor">*</label>
+            <label for="email">Email ID</label>
+            <input type="email" id="email" name="email" required>
+        </div><br>
+
+        <button type="submit">Next Page</button>
+    </form>-->
+    <table class="tbl">
+        <form action="./pswd.html" method="get">
+            
+            <tr>
+                <td><label class="starcolor">*</label><label for="email">Email ID</label></td>
+                <td>
+                    <input type="text" id="email" name="email" required>
+                    <label>@besant.com</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Next Page</button>
+                    <input type="hidden" id="out_firstname" name="out_firstname">
+                    <input type="hidden" id="out_lastname" name="out_lastname">
+                    <input type="hidden" id="out_gendr" name="out_gendr">
+                    <input type="hidden" id="out_dateofbirth" name="out_dateofbirth">
+                </td>
+                
+            </tr>
+
+
+        </form>
+    </table>
+    <!--Calling javascript-->
+    <script type="text/javascript" src="./js/script1.js"></script>
+</body>
+
+</html>

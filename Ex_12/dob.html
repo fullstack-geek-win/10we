@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Title of the page-->
+    <title>GoogleAccount</title>
+    <!--Calling external stylesheet-->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body class="brndclr">
+    <!--creating  a form
+    <form action="./mailid.html" method="get">
+
+        getting query string value through javascript
+        <div>
+            <label for="out_firstname"></label>
+            <input type="hidden" readonly id="out_firstname" name="out_firstname" value="out_firstname">
+        </div><br>
+
+        <div>
+            <label for="out_lastname"></label>
+            <input type="hidden" readonly id="out_lastname" name="out_lastname" value="out_lastname">
+        </div><br>
+        Adding gender
+        <div>
+            <label class="starcolor">*</label>
+            <label>Gender</label>
+            <input type="radio" id="female" name="gender" value="female" checked>
+            <label for="female">Female</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+        </div><br>
+        <div>
+            <label class="errmsg" id="genderr"></label>
+        </div>
+        div for DOB
+        <div>
+            <label class="starcolor">*</label>
+            <label for="DOB">Date of Birth</label>
+            <input type="date" id="DOB" name="DOB" onchange="return dobValidation()" required>
+            <label>Age</label>
+            <input type="text" id="age" name="age" size="2" readonly value="0">
+        </div><br>
+        calculating age according to DOB
+        <div>
+            <label class="errmsg" id="agemsg"></label>
+        </div><br>
+
+        div for next page button
+        <div>
+            <button type="submit" onclick="return dobValidation()">Next Page</button>
+        </div>
+    </form>-->
+    <div class="box">
+        <!--creating  a form-->
+        <form action="./mailid.html" method="get">
+          <!--Adding gender-->
+          <table class="tbl">
+          <tr>
+            <td><label class="starcolor">*</label><label>Gender</label></td>
+            <td colspan="2">
+              <input
+                type="radio"
+                id="female"
+                name="gender"
+                value="female"
+                
+              />
+              <label for="female">Female</label>
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="male">Male</label>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td colspan="2"><label class="errmsg" id="genderr"></label></td>
+          </tr>
+          <!--div for DOB-->
+          <tr>
+            <td>
+              <label class="starcolor">*</label>
+              <label for="DOB">DOB</label>
+            </td>
+            <td>
+              <input
+                type="date"
+                id="DOB"
+                name="DOB"
+                onchange="return dobValidation()"
+                required
+              />
+
+            </td>
+            </tr>
+            <tr>
+            <td>
+            <!--calculating age according to DOB-->
+              <label>Age</label>
+              </td>
+              <td colspan="2">
+              <input
+                type="text"
+                id="age"
+                name="age"
+                size="2"
+                readonly
+                value="0"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3"><label class="errmsg" id="agemsg"></label></td>
+          </tr>
+          <!--div for next page button-->
+          <tr>
+            <td colspan="3">
+                <button onclick="history.back()">
+                    Previous Page
+                </button>
+              <button type="submit" onclick="return DOBFormValidation()">
+                Next Page
+              </button>
+              <input
+                type="hidden"
+                id="out_firstname"
+                name="out_firstname"
+              />
+              <input
+                type="hidden"
+                id="out_lastname"
+                name="out_lastname"
+              />
+            </td>
+          </tr>
+          </table>
+        </form>
+    </div>
+    <!--Calling javascript-->
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
+</html>
