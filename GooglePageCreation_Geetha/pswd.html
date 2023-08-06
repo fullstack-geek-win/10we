@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Title of the page-->
+  <title>GoogleAccount</title>
+  <!--Calling external stylesheet-->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="brndclr">
+  <!--<form action="./final.html" method="get">
+
+    <div>
+      <label for="out_firstname"></label>
+      <input type="hidden" readonly id="out_firstname" name="out_firstname" value="out_firstname">
+    </div><br>
+
+    <div>
+      <label for="out_lastname"></label>
+      <input type="hidden" readonly id="out_lastname" name="out_lastname" value="out_lastname">
+    </div><br>
+
+    <div>
+      <label for="out_gendr"></label>
+      <input type="hidden" readonly id="out_gendr" name="out_gendr" value="out_gendr">
+    </div><br>
+
+    <div>
+      <label></label>
+      <input type="hidden" readonly id="out_dateofbirth" name="out_dateofbirth" value="out_dateofbirth">
+    </div><br>
+    <div>
+      <label></label>
+      <input type="hidden" readonly id="out_mail" name="out_mail" value="out_mail">
+    </div><br>
+    <div>
+
+      <label for="pswd">Password</label>
+      <input type="password" id="pswd" name="pswd" required minlength="6" maxlength="10">
+    </div><br>
+    <div>
+      <label for="cnfmpswd">Confirm Password</label>
+      <input type="password" id="cnfmpswd" name="cnfmpswd" required minlength="6" maxlength="10">
+    </div><br>
+    <div>
+      <label class="errmsg" id="errpswd"></label>
+    </div><br>
+    <div>
+      <button type="submit" onclick="return pswdValidation()">SUBMIT</button>
+    </div>
+  </form>-->
+  <table class="tbl">
+    <form action="./final.html" method="get">
+      <tr>
+        <td><label for="out_firstname"></label></td>
+        <td><input type="hidden" readonly id="out_firstname" name="out_firstname" value="out_firstname"></td>
+      </tr>
+
+      <tr>
+        <td><label for="out_lastname"></label></td>
+        <td><input type="hidden" readonly id="out_lastname" name="out_lastname" value="out_lastname"></td>
+      </tr>
+      <tr>
+        <td><label for="out_gendr"></label></td>
+        <td><input type="hidden" readonly id="out_gendr" name="out_gendr" value="out_gendr"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td><input type="hidden" readonly id="out_dateofbirth" name="out_dateofbirth" value="out_dateofbirth"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td><input type="hidden" readonly id="out_mail" name="out_mail" value="out_mail"></td>
+      </tr>
+      <tr>
+        <td><label for="pswd">Password</label></td>
+        <td><input type="password" id="pswd" name="pswd" required minlength="6" maxlength="10"></td>
+      </tr>
+      <tr>
+        <td><label for="cnfmpswd">Confirm Password</label></td>
+        <td><input type="password" id="cnfmpswd" name="cnfmpswd" required minlength="6" maxlength="10"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><label class="errmsg" id="errpswd"></label></td>
+      </tr>
+      <tr>
+        <td colspan="2"> <button type="submit" onclick="return pswdValidation()">SUBMIT</button></td>
+      </tr>
+    </form>
+  </table>
+  <!--Calling javascript-->
+  <script type="text/javascript" src="./js/script2.js"></script>
+</body>
+
+</html>
