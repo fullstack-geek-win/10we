@@ -1,0 +1,29 @@
+.box {
+    background-image: url(../image/images.jfif);
+    background-repeat: round;
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    margin: 100px auto;
+    background-color: brown;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 20px;
+}
+
+input, button {
+    /* margin: 75px auto; */
+    border-radius: 5px;
+    font-size: 14px;
+    height: 20px;
+}
+
+#result {
+    /* border: 1px solid black; */
+    margin: 10px auto;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+
+
